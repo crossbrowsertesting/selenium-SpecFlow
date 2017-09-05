@@ -31,9 +31,10 @@ namespace CBT_Example_2
             caps.SetCapability("name", "SpecFlow-CBT");
             caps.SetCapability("record_video", "true");
             caps.SetCapability("build", "1.35");
-            caps.SetCapability("os_api_name", "Win10-E14");
-            caps.SetCapability("browser_api_name", "FF53x64");
-            caps.SetCapability("screen_resolution", "1366x768");
+            caps.SetCapability("browserName", "Firefox");
+            caps.SetCapability("version", "53x64");
+            caps.SetCapability("platform", "Windows 10");
+            caps.SetCapability("screenResolution", "1366x768");
             caps.SetCapability("record_video", "true");
             caps.SetCapability("record_network", "true");
 
