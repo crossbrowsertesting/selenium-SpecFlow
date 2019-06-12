@@ -36,7 +36,7 @@ namespace CBT_Example_2
             caps.SetCapability("platform", "Windows 10");
             caps.SetCapability("screenResolution", "1366x768");
             caps.SetCapability("record_video", "true");
-            caps.SetCapability("record_network", "true");
+            caps.SetCapability("record_network", "false");
 
             caps.SetCapability("username", username);
             caps.SetCapability("password", authkey);
